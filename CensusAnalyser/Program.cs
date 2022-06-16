@@ -8,7 +8,7 @@ namespace IndianStates_Codes
         {
             string filePath = @"C:\BridgeLabz\.Net_Fellowship\CensusAnalyser\CensusAnalyser\StateCensusData.csv";
             StateAnalyser getMethod = new StateAnalyser();
-            getMethod.DataAnalyser(filePath);
+            getMethod.StateDataAnalyser(filePath);
         }
     }
 }
